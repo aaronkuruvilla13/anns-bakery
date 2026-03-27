@@ -26,7 +26,7 @@ export default function Navbar() {
         borderBottom: '1px solid rgba(200,16,46,0.12)',
       }}>
         {/* Logo */}
-        <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
+        <a href="#top" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
           <AnnsLogo size={isMobile ? 36 : 46} />
           <div style={{ fontFamily: "'Playfair Display', serif", fontWeight: 600, fontSize: isMobile ? '0.9rem' : '1rem', color: '#1E0E0E', lineHeight: 1.2 }}>
             Anns Bakery
